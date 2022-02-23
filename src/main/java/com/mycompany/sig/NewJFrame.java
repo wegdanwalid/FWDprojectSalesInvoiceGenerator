@@ -14,6 +14,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -481,15 +482,15 @@ deleteItem();        // TODO add your handling code here:
 
     }
     }
-    private void saveData() {
+    private void saveData() throws Exception{
+        JOptionPane.showMessageDialog(this, "Please Choose File Header to Save", "Invoice");
         JFileChooser fc = new JFileChooser();
         int option = fc.showSaveDialog(this);
         if (option == JFileChooser.APPROVE_OPTION) {
-            String path = fc.getSelectedFile().getPath();
-            FileOutputStream fos = null;
+            File Csvfile = fc.getSelectedFile();
+            PrintWriter out = new PrintWriter(CsvFile)
             
-            fos = new FileOutputStream(path);
-            byte[] b = ta.
+            
         }
         
     }
