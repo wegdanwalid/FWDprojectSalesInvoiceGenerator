@@ -14,7 +14,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
-import static java.lang.System.out;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
