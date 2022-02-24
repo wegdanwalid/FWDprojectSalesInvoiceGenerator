@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.sig.model;
 
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Lenovo
- */
+
 public class LineTableModel extends DefaultTableModel {
     
     String[] colsNames = {"Item Name", "Item Price", "Count", "Item Total"};

@@ -35,7 +35,7 @@ public class HeaderTableModel extends DefaultTableModel {
     public void removeRow(int row) {
     invoices.remove(row);
     }
-    
+  
     @Override
     public int getRowCount() {
         if(this.invoices == null){

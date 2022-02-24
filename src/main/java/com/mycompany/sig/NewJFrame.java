@@ -364,7 +364,7 @@ deleteItem();        // TODO add your handling code here:
     private javax.swing.JMenuItem loadFileMenuItem;
     private javax.swing.JMenuItem saveFileMenuItem;
     // End of variables declaration//GEN-END:variables
-     @Override
+    @Override
     public void valueChanged(ListSelectionEvent e) {
         headerTableRowSelected();
     }
@@ -520,8 +520,8 @@ deleteItem();        // TODO add your handling code here:
              pr.close();
             JOptionPane.showMessageDialog(this, "Successfully Saved", "Information", JOptionPane.INFORMATION_MESSAGE);
     }
-    }
-    
+        }
+        
     private void createInv() {
         headerDialog = new InvHeaderDialog(this);
         headerDialog.setVisible(true);

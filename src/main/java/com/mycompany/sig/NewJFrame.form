@@ -328,7 +328,11 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
       </Events>
       <AuxValues>
+<<<<<<< HEAD
         <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="jButton1.addActionListener(this);"/>
+=======
+        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="jButton1.addActionListener(this);&#xd;&#xa;"/>
+>>>>>>> 9ac5f3a2978688a0a683ac4657d8e15bd896923c
       </AuxValues>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">

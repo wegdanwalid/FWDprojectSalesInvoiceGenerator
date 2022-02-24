@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 com\mycompany\salesinvoicegenerator\InvLineDialog.class
+=======
+com\mycompany\sig\NewJFrame$2.class
+com\mycompany\sig\NewJFrame.class
+com\mycompany\sig\NewJFrame$3.class
+com\mycompany\sig\NewJFrame$1.class
+com\mycompany\sig\model\InvoiceLine.class
+com\mycompany\sig\model\InvoiceHeader.class
+>>>>>>> 9ac5f3a2978688a0a683ac4657d8e15bd896923c

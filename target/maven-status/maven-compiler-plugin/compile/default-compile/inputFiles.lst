@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\com\mycompany\salesinvoicegenerator\model\InvoiceHeader.java
 C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\com\mycompany\salesinvoicegenerator\InvHeaderDialog.java
 C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\com\mycompany\salesinvoicegenerator\model\LineTableModel.java
@@ -6,3 +7,8 @@ C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\c
 C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\com\mycompany\salesinvoicegenerator\NewJFrame1.java
 C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\com\mycompany\salesinvoicegenerator\InvLineDialog.java
 C:\Users\Lenovo\Documents\NetBeansProjects\SalesInvoiceGenerator\src\main\java\com\mycompany\salesinvoicegenerator\model\InvoiceLine.java
+=======
+C:\Users\Lenovo\Documents\NetBeansProjects\SIG\src\main\java\com\mycompany\sig\model\InvoiceLine.java
+C:\Users\Lenovo\Documents\NetBeansProjects\SIG\src\main\java\com\mycompany\sig\model\InvoiceHeader.java
+C:\Users\Lenovo\Documents\NetBeansProjects\SIG\src\main\java\com\mycompany\sig\NewJFrame.java
+>>>>>>> 9ac5f3a2978688a0a683ac4657d8e15bd896923c
