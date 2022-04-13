@@ -1,5 +1,5 @@
 
-package com.mycompany.sig;
+package view;
 
 import java.awt.GridLayout;
 import javax.swing.JButton;

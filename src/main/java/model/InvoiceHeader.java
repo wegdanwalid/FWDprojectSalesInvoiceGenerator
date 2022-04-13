@@ -1,4 +1,4 @@
-package com.mycompany.sig.model;
+package model;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -52,10 +52,9 @@ public class InvoiceHeader {
         this.invTotal = invTotal;
     }
 
-    public ArrayList<InvoiceLine> getLines() {
-        if (lines == null) {
-            lines = new ArrayList<>();
-        }
+     public ArrayList<InvoiceLine> getLines() {
+        if(lines ==null)
+            lines=new ArrayList<>();
         return lines;
     }
 
@@ -68,13 +67,7 @@ public class InvoiceHeader {
         setInvTotal(getInvTotal() + line.getLineTotal());
     }
 
-    public String getInvNum() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    public Object getInvDate() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
     
     
 }

@@ -1,5 +1,6 @@
-package com.mycompany.sig.model;
+package controller;
 
+import model.InvoiceLine;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 

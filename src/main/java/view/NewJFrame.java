@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.sig;
+package view;
 
-import com.mycompany.sig.model.HeaderTableModel;
-import com.mycompany.sig.model.InvoiceHeader;
-import com.mycompany.sig.model.InvoiceLine;
-import com.mycompany.sig.model.LineTableModel;
+import controller.HeaderTableModel;
+import model.InvoiceHeader;
+import model.InvoiceLine;
+import controller.LineTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;

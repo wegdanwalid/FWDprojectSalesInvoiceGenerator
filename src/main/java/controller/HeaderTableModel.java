@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sig.model;
+package controller;
 
+import model.InvoiceHeader;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 
